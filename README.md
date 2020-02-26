@@ -1,6 +1,9 @@
-# Linux Terminal Colored str Object - cstr
+# Unix Terminal Colored str Object - cstr
 
-Tested on Windows Subsystem Linux - Ubuntu
+Tested on working environment:
+- Windows Subsystem Linux - Ubuntu
+- MacOS X terminal
+- Windows MobaXterm connected Linux cluster server - CentOS
 
 ## Installation
 
