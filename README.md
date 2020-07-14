@@ -4,6 +4,7 @@ Tested on the following environments:
 - Windows Subsystem for Linux (Ubuntu)
 - Mac OSX Terminal
 - Windows MobaXterm connected to a Linux cluster server (CentOS)
+- Windows Spyder editer console
 
 ## Installation
 
@@ -34,5 +35,5 @@ print(s.upper())
 for word in s.split():
     print(word)
 ```
-## Demo
+
 ![Demo](https://github.com/mvfki/cstr/raw/master/DEMO.png)
