@@ -1,9 +1,9 @@
 # Unix Terminal Colored str Object - cstr
 
-Tested on working environment:
-- Windows Subsystem Linux - Ubuntu
-- MacOS X terminal
-- Windows MobaXterm connected Linux cluster server - CentOS
+Tested on the following environments:
+- Windows Subsystem for Linux (Ubuntu)
+- Mac OSX Terminal
+- Windows MobaXterm connected to a Linux cluster server (CentOS)
 
 ## Installation
 
@@ -16,20 +16,23 @@ python setup.py install
 ## Usage
 
 ### str Operations
-Just use it in the same way as you deal with `str` object.  
-> **TODO** say more
+Just use it in the same way as you deal with normal `str` objects.
 
 ### Coloring
-`cstr.__str__()` method returns the raw string with terminal understandable prefix and suffix so that it automatically turns out to be colored. To fetch the raw string only, use `cstr.str`.
+- Use `cstr()` to color text.
+- Use `cstr.__str__()` to obtain the raw string with the Unix coloring prefix and suffix.
+- Use `cstr.str` to get the raw string.
 
 ## Example
-Run the example script in your command line terminal. 
+Run this example script in your terminal/command line to see Cstr in action!
 ```python
 from cstr import cstr
+
 s = cstr('Hello world!', 'rgbrgbrgbrgb')
 print(s)
 print(s.upper())
 for word in s.split():
     print(word)
 ```
+## Demo
 ![Demo](https://github.com/mvfki/cstr/raw/master/DEMO.png)
