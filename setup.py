@@ -7,7 +7,7 @@ if sys.version_info.major != 3:
 
 
 setup(name = 'cstr',
-      version = "1.0",
+      version = '1.0',
       description = 'Colored str',
       long_description = Path('README.md').read_text('utf-8'),
       url = 'https://github.com/mvfki/cstr',
