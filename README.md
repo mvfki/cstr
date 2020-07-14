@@ -24,7 +24,7 @@ Just use it in the same way as you deal with `str` object.
 
 ## Example
 Run the example script in your command line terminal. 
-```
+```python
 from cstr import cstr
 s = cstr('Hello world!', 'rgbrgbrgbrgb')
 print(s)
