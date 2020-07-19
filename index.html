@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<!--
+Ion by TEMPLATED
+templated.co @templatedco
+Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+--><html>
+<head>
+<title>Unix Terminal Colored str Object - cstr - WYC's Blog</title>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="" name="description"/>
+<meta content="" name="keywords"/>
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+<style type="text/css">
+			.hidden {display:none;}
+		</style>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/skel-layers.min.js"></script>
+<script src="/js/init.js"></script>
+<link href="/images/icon.png" rel="shortcut icon" type="image/png"/>
+<link href="/css/highlight.css" rel="stylesheet" type="text/css"/>
+<script src="/js/smoothscroll.min.js"></script>
+<script async="" id="dsq-count-scr" src="//mvfki.disqus.com/count.js"></script>
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/6168edb86f.js"></script>
+<link href="/css/dark.css" rel="stylesheet"/>
+<noscript>
+<link href="/css/skel.css" rel="stylesheet"/>
+<link href="/css/style.css" rel="stylesheet"/>
+<link href="/css/style-xlarge.css" rel="stylesheet"/>
+</noscript>
+<style>
+header.major {
+	text-align: center;
+	margin: 0 0 4em 0;
+	background-image: linear-gradient(rgba(100, 100, 100, 0.4), rgba(100, 100, 100, 0.4)), url(/blog/coding/images/banner.png);
+	padding: 6em 0 4em 0;
+	background-position: left center;
+	background-size: cover;
+	opacity: 0.8;
+}
+	header.major h2 {
+		color: white;
+	}
+	header.major p {
+		color: white;
+	}
+.wrapper {
+	padding: 0 0 0 0;
+}
+		</style>
+</head>
+<body class="hidden" id="top">
+<!-- Header -->
+<header class="skel-layers-fixed" id="header">
+<h1><a href="/">WYC - Home Page</a></h1>
+<nav id="nav">
+<ul>
+<li><a href="/">Home</a></li>
+<li class="dropdown" id="blogMenu">
+<a href="/blog">Blog</a>
+<ul class="dropdownContent" id="dropdownContent">
+<li><a href="/blog/coding">Coding</a></li>
+<li><a href="/blog/music">Music</a></li>
+<li><a href="/blog/anime">Anime</a></li>
+<li><a href="/blog/cooking">Cooking</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/mvfki">GitHub</a></li>
+<li><a href="https://bangumi.tv/user/541876">Bangumi</a></li>
+</ul>
+</nav>
+</header>
+<!-- Main -->
+<section class="wrapper style1" id="main">
+<header class="major">
+<h2>Yichen's Coding Notes</h2>
+<p>Some experience and complains ;D</p>
+</header>
+<nav id="content-nav"><ul><li class="tag-h1"><a href="#unix-terminal-colored-str-object-cstr">Unix Terminal Colored str Object - cstr</a></li><li class="tag-h2"><a href="#installation">Installation</a></li><li class="tag-h2"><a href="#usage">Usage</a></li><li class="tag-h3"><a href="#str-operations">str Operations</a></li><li class="tag-h3"><a href="#coloring">Coloring</a></li><li class="tag-h2"><a href="#example">Example</a></li></ul></nav>
+<div class="container post">
+<a href="/blog">Blog</a><span>  /  </span><a href="/blog/coding">Coding</a>
+</div>
+<div class="container" id="articleDiv">
+<!-- Articles -->
+<section><div class="post"><span>2020-07-19</span><h1 id="unix-terminal-colored-str-object-cstr">Unix Terminal Colored str Object - cstr</h1><p>Tested on the following environments:
+- Windows Subsystem for Linux (Ubuntu)
+- Mac OSX Terminal
+- Windows MobaXterm connected to a Linux cluster server (CentOS)
+- Windows Spyder editer console</p><h2 id="installation"><a class="anchor" href="#installation" id="anchor-installation"><i aria-hidden="true" class="fas fa-link"></i></a>Installation</h2><div class="highlight"><pre><span></span><code>git clone https://github.com/mvfki/cstr.git
+cd cstr
+python setup.py install
+</code></pre></div><h2 id="usage"><a class="anchor" href="#usage" id="anchor-usage"><i aria-hidden="true" class="fas fa-link"></i></a>Usage</h2><h3 id="str-operations"><a class="anchor" href="#str-operations" id="anchor-str-operations"><i aria-hidden="true" class="fas fa-link"></i></a>str Operations</h3><p>Just use it in the same way as you deal with normal <code>str</code> objects.</p><h3 id="coloring"><a class="anchor" href="#coloring" id="anchor-coloring"><i aria-hidden="true" class="fas fa-link"></i></a>Coloring</h3><ul>
+<li>Use <code>cstr()</code> to color text.</li>
+<li>Use <code>cstr.__str__()</code> to obtain the raw string with the Unix coloring prefix and suffix.</li>
+<li>Use <code>cstr.str</code> to get the raw string.</li>
+</ul><h2 id="example"><a class="anchor" href="#example" id="anchor-example"><i aria-hidden="true" class="fas fa-link"></i></a>Example</h2><p>Run this example script in your terminal/command line to see Cstr in action!
+</p>
+</div></section></div>
+<div class="container post operation" id="lowerOperation">
+<hr/>
+<!--Last  &  Next-->
+<a class="operation button" id="lastBtn">Last</a>
+<a class="operation button right" id="nextBtn">Next</a>
+<hr/>
+</div>
+</section>
+<div class="container comment">
+<h2>Comments</h2>
+<div id="disqus_thread"></div>
+</div>
+<script id="disqusConfig">
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+	this.page.url = "https://mvfki.github.io/blog/coding/unix-terminal-colored-str-object-cstr/";  // Replace PAGE_URL with your page's canonical URL variable
+	this.page.identifier = "unix-terminal-colored-str-object-cstr"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://mvfki.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+		</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<div class="corner">
+<i class="fa fa-angle-double-up fa-4x"></i>
+</div>
+<!-- Footer -->
+<footer id="footer">
+<div class="container">
+<div class="copyright row">
+<div class="left">
+<p><span class="bold">What is "mvfki"?</span><br/>
+							"mvfki" does not linguistically mean anything.<br/>
+							Try type it letter by letter on your keyboard, <br/>
+							and you will feel comfortable with it:)</p>
+</div>
+<div class="right">
+<br/><p>© Yichen Wang, 2020.
+						<br/>Design: <a href="http://templated.co">TEMPLATED</a></p>
+</div>
+</div>
+</div>
+</footer>
+<script src="/js/utils.js"></script>
+</body>
+</html>

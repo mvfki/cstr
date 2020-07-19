@@ -36,4 +36,4 @@ for word in s.split():
     print(word)
 ```
 
-![Demo](https://github.com/mvfki/cstr/raw/master/DEMO.png)
+![Demo](https://github.com/mvfki/cstr/raw/master/docs/DEMO.png)
